@@ -16,5 +16,54 @@
   "profile": {
     "name": "typicode"
   },
-  "employee": []
+  "employee": [
+    {
+      "firstName": "Rahul",
+      "lastName": "Patil",
+      "email": "rahul12@gmail.com",
+      "dob": "2024-05-13T18:30:00.000Z",
+      "gender": "male",
+      "education": "Matric",
+      "company": "GoogleEx",
+      "experience": 12,
+      "package": 34,
+      "id": 1
+    },
+    {
+      "firstName": "Sita``",
+      "lastName": "Walekar",
+      "email": "sita12@gmail.com",
+      "dob": "2016-02-09T18:30:00.000Z",
+      "gender": "female",
+      "education": "Diploma",
+      "company": "Info",
+      "experience": 1,
+      "package": 11,
+      "id": 2
+    },
+    {
+      "firstName": "JOhn",
+      "lastName": "Doe",
+      "email": "johndoe22@gmail.com",
+      "dob": "2024-05-13T18:30:00.000Z",
+      "gender": "male",
+      "education": "Intermediate",
+      "company": "Ninjar",
+      "experience": 2,
+      "package": 12,
+      "id": 3
+    },
+    {
+      "firstName": "Jack",
+      "lastName": "Faries",
+      "email": "fariesjack1@hotmail.com",
+      "dob": "2024-04-30T18:30:00.000Z",
+      "gender": "others",
+      "education": "Post Graduate",
+      "company": "HP",
+      "experience": 12,
+      "package": 22,
+      "id": 5
+    }
+  ]
 }
