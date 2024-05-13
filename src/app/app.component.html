@@ -22,7 +22,7 @@
         <td mat-cell *matCellDef="let row"> {{row.id}} </td>
       </ng-container>
 
-      <!-- Progress Column -->
+      <!-- Name Column -->
       <ng-container matColumnDef="firstName">
         <th mat-header-cell *matHeaderCellDef mat-sort-header> First Name </th>
         <td mat-cell *matCellDef="let row"> {{row.firstName}}</td>
@@ -33,41 +33,49 @@
         <td mat-cell *matCellDef="let row"> {{row.lastName}}</td>
       </ng-container>
 
+      <!-- Email Column -->
       <ng-container matColumnDef="email">
         <th mat-header-cell *matHeaderCellDef mat-sort-header> Email </th>
         <td mat-cell *matCellDef="let row"> {{row.email}}</td>
       </ng-container>
 
+      <!-- Date of Birth Column -->
       <ng-container matColumnDef="dob">
         <th mat-header-cell *matHeaderCellDef mat-sort-header> DOB </th>
         <td mat-cell *matCellDef="let row"> {{row.dob | date}}</td>
       </ng-container>
 
+      <!-- Gender Column -->
       <ng-container matColumnDef="gender">
         <th mat-header-cell *matHeaderCellDef mat-sort-header> Gender </th>
         <td mat-cell *matCellDef="let row"> {{row.gender}}</td>
       </ng-container>
 
+      <!-- Education Column -->
       <ng-container matColumnDef="education">
         <th mat-header-cell *matHeaderCellDef mat-sort-header> Education </th>
         <td mat-cell *matCellDef="let row"> {{row.education}}</td>
       </ng-container>
 
+      <!-- Company Column -->
       <ng-container matColumnDef="company">
         <th mat-header-cell *matHeaderCellDef mat-sort-header> Company </th>
         <td mat-cell *matCellDef="let row"> {{row.company}}</td>
       </ng-container>
 
+      <!-- Experience Column -->
       <ng-container matColumnDef="experience">
         <th mat-header-cell *matHeaderCellDef mat-sort-header> Exp. </th>
         <td mat-cell *matCellDef="let row"> {{row.experience}}</td>
       </ng-container>
 
+      <!-- Package Column -->
       <ng-container matColumnDef="package">
         <th mat-header-cell *matHeaderCellDef mat-sort-header> Package </th>
         <td mat-cell *matCellDef="let row"> {{row.package | currency:'INR'}}L</td>
       </ng-container>
 
+      <!-- Action(Button) Column -->
       <ng-container matColumnDef="action">
         <th mat-header-cell *matHeaderCellDef mat-sort-header> Action </th>
         <td mat-cell *matCellDef="let row">
