@@ -23,7 +23,7 @@
       "email": "rahul12@gmail.com",
       "dob": "2024-05-13T18:30:00.000Z",
       "gender": "male",
-      "education": "Matric",
+      "education": "Post Graduate",
       "company": "GoogleEx",
       "experience": 12,
       "package": 34,
@@ -64,6 +64,18 @@
       "experience": 12,
       "package": 22,
       "id": 5
+    },
+    {
+      "firstName": "Prathmesh",
+      "lastName": "Patil",
+      "email": "prathemshpatil@gmail.com",
+      "dob": "2024-05-12T18:30:00.000Z",
+      "gender": "male",
+      "education": "Graduate",
+      "company": "NA",
+      "experience": 1,
+      "package": 12,
+      "id": 6
     }
   ]
 }
